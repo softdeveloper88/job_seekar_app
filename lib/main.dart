@@ -86,7 +86,6 @@ class _MyAppState extends State<MyApp> {
     //
     // );
     super.initState();
-
     var android = new AndroidInitializationSettings('mipmap/ic_launcher');
     var ios = new IOSInitializationSettings();
     var platform = new InitializationSettings(android: android, iOS: ios);

@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:job_seekar_app/components/rounded_button.dart';
-import 'package:job_seekar_app/globle.dart';
 import 'package:progress_dialog/progress_dialog.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../constants.dart';
+import '../globle.dart';
 import 'background.dart';
 import 'package:http/http.dart' as http;
 

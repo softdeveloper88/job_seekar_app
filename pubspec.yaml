@@ -41,7 +41,7 @@ dependencies:
   timeago: ^3.0.2
   intl: ^0.17.0
   provider: ^5.0.0
-  google_sign_in: "^4.5.1"
+  google_sign_in: "^4.0.7"
   search_page: ^2.0.0
   bottom_navy_bar: ^6.0.0
   date_range_picker: ^1.0.3

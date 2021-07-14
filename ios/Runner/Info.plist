@@ -55,5 +55,21 @@
            <key>NSAllowsArbitraryLoads</key>
           <true/>
       </dict>
+      <!-- Put me in the [my_project]/ios/Runner/Info.plist file -->
+      <!-- Google Sign-in Section -->
+      <key>CFBundleURLTypes</key>
+      <array>
+      	<dict>
+      		<key>CFBundleTypeRole</key>
+      		<string>Editor</string>
+      		<key>CFBundleURLSchemes</key>
+      		<array>
+      			<!-- TODO Replace this value: -->
+      			<!-- Copied from GoogleService-Info.plist key REVERSED_CLIENT_ID -->
+      			<string>com.googleusercontent.apps.105274946435-rpq3uim6mmseuehpeup895jmql8tdm56</string>
+      		</array>
+      	</dict>
+      </array>
+      <!-- End of the Google Sign-in Section -->
 </dict>
 </plist>

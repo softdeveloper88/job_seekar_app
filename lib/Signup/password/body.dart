@@ -86,7 +86,7 @@ class _BodyState extends State<Body> {
                         });
                         return user.uid;
                       } catch (e) {
-                        print("An error occurred while trying to send email        verification");
+                        print("An error occurred while trying to send email  verification");
                         print(e.message);
                       }
                     });
